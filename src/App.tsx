@@ -1,15 +1,16 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import appLogo from '/favicon.svg'
-import PWABadge from './PWABadge.tsx'
-import './App.css'
+import { useState } from 'react';
+import reactLogo from './assets/react.svg';
+import appLogo from '/favicon.svg';
+import PWABadge from './PWABadge.tsx';
+import './App.css';
 
 function App() {
-  const [count, setCount] = useState(0)
+  const [count, setCount] = useState(0);
 
   return (
     <>
       <div>
+        <p>Different From ANOTHER</p>
         <a href="https://vitejs.dev" target="_blank">
           <img src={appLogo} className="logo" alt="pwa-offline-testing logo" />
         </a>
@@ -31,7 +32,7 @@ function App() {
       </p>
       <PWABadge />
     </>
-  )
+  );
 }
 
-export default App
+export default App;
